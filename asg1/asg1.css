@@ -1,0 +1,101 @@
+body {
+    background: url('https://media.giphy.com/media/quEsMOrr3hmQ8/giphy.gif?cid=790b7611pr57vcxkotcok9m7wybetbsyfm3gplhmzdbeji98&ep=v1_gifs_search&rid=giphy.gif&ct=g') no-repeat center center fixed;
+    background-size: cover;
+    background-color: gray;
+    }
+    table {
+    align-content: center;
+    margin: auto;
+    background-color: tan;
+    border: 4px solid black;
+    border-radius: 10px;
+    }
+    p {
+        font-size: 20px;
+        font-family: 'monospace', sans-serif;
+        align-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        object-fit: contain;
+        width: auto;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    #about-me{
+        all: unset;
+        display: block;
+    }
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        padding: 20px; 
+        margin: 20px auto; 
+        max-width: 800px; 
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    .about-text{
+        display: block;
+        all: unset;
+        width: 50%;
+        font-size: 20px;
+        font-family: 'monospace', sans-serif;
+        text-align: left;
+    }
+    .about-image img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 1px solid black;
+        justify-content: right;
+    }
+    ul {
+        align-items: center;
+    }
+    h1 {
+    font-family: 'monospace', sans-serif;
+    color: rgb(49, 226, 43);
+    text-align: center;
+    font-weight: 1000;
+    }
+    h2 {
+    text-align: center;
+    font-family: 'monospace', sans-serif;
+    }
+
+    td {
+    width: 80px;
+    height: 80px;
+    border: 4px solid black;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 5px;
+    }
+    th {
+    background-color: tan;
+    }
+    /* make all even numbered cells have a blue background */
+    td:nth-child(even) {
+    background: chocolate;
+    }
+    /* make all cells within odd numbered rows have a green background */
+    tr:nth-child(odd)>td {
+    background: chocolate;
+    }
+    tr:nth-child(odd)>td:nth-child(even) {
+        background: tan;
+        }
+    /*make the odd numbered cells within even numbered rows have a red background */
+    tr:nth-child(even)>td:nth-child(odd) {
+    background:  tan;
+    }
